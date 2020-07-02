@@ -51,3 +51,6 @@ a {text-decoration-color: black;
 
 .buffer {height: 5rem;
 }
+
+a {color:whitesmoke;}
+a:hover {color: white;}
