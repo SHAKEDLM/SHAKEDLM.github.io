@@ -1,0 +1,39 @@
+/*selector{
+	property :value;
+}*/
+.container{display: flex;
+	flex-wrap: wrap;
+}
+body {background-color:#7E8C98;
+}
+
+p {font-family: 'Amatic SC', cursive; font-weight: bold; font-size: 270%; text-align: right;
+ border-bottom-style: solid ; width: 400px;
+ border-bottom-color:#162955; 
+ border-width: 2px;
+ }
+
+img { width: 190px;
+	height:200px;
+	 float: right; margin:15px; 
+	 justify-content:center;
+	 transition: all 0.7s;
+ 
+}
+
+img:hover{transform: scale(2);
+}
+
+button {
+  background-color: #4B698B;
+  border: none;
+  color: black;
+  padding: 24px 28px;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;color: #162955;
+  color: #162955;
+  font-size: 26px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%
+}
