@@ -1,7 +1,12 @@
 /*selector{
 	property :value;
 }*/
-
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50vh; }
+}
 body {background: url(background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -41,15 +46,18 @@ max-width: 130px
  border-color :#7887AB;
 padding: 1rem 2rem ;
 border-radius: 300px;
-font-weight: 800px}
-
-.btn-outline-info:hover {background-color: #363377;border-color :#363377;
-border-width: 4px;}
-
-a {text-decoration-color: black;
+font-weight: 800px;
+transition: all 100ms ease-in;
 }
 
-.buffer {height: 5rem;
+.btn-outline-info:hover {
+	background-color: #363377;
+	border-color :#363377;
+	transform: scale(1.1);}
+
+}
+
+.buffer {height: 6rem;
 }
 
 a {color:whitesmoke;}
