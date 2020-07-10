@@ -1,12 +1,7 @@
 /*selector{
 	property :value;
 }*/
-.container{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 50vh; }
-}
+
 body {background: url(background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -47,17 +42,15 @@ max-width: 130px
 padding: 1rem 2rem ;
 border-radius: 300px;
 font-weight: 800px;
-transition: all 100ms ease-in;
+transition: all 100ms ease-in;}
+
+.btn-outline-info:hover {background-color: #363377;border-color :#363377;
+transform: scale(1.1);}
+
+a {text-decoration-color: black;
 }
 
-.btn-outline-info:hover {
-	background-color: #363377;
-	border-color :#363377;
-	transform: scale(1.1);}
-
-}
-
-.buffer {height: 6rem;
+.buffer {height: 5rem;
 }
 
 a {color:whitesmoke;}
